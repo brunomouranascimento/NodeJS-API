@@ -19,14 +19,17 @@
   },
   "homepage": "https://github.com/brunomouranascimento/NodeJS-API#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
+    "express-graphql": "^0.9.0",
     "express-validator": "^5.3.0",
+    "graphql": "^15.0.0",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.3.2",
-    "multer": "^1.4.0"
+    "multer": "^1.4.0",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
